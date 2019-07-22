@@ -40,33 +40,24 @@ export default {
     margin-right: 20px;
 } 
 
-nav {
-  height: 50px;
-  width: 100%;
-  font-size: 25px;
-  text-align: center;
-  background-color: rgb(77, 77, 77);
-  padding-top: 20px;
-  /* position: fixed; */
-}
-
  nav {
-  position: fixed; /* fixing the position takes it out of html flow - knows
-                   nothing about where to locate itself except by browser
-                   coordinates */
-  left: 0;           /* top left corner should start at leftmost spot */
-  top: 0;            /* top left corner should start at topmost spot */
-  width: 100vw;      /* take up the full browser width */
-  z-index:200;  /* high z index so other content scrolls underneath */
-  height: 50px;     /* define height for content */
+  position: fixed; 
+  left: 0;          
+  top: 0;           
+  width: 100vw;      
+  z-index:200;  
+  height: 50px;    
+  font-size: 25px;
+  background-color: rgb(77, 77, 77);
+  padding-top: 30px;
 }
 a {
    text-decoration: none;
-   color: black;
+   color: white;
 }
 
 a:visited {
-  color: black;
+  color: white;
 }
 
 a:hover {
