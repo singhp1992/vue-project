@@ -48,6 +48,7 @@ nav {
   text-align: center;
   background-color: rgb(77, 77, 77);
   padding-top: 20px;
+  /* position: fixed; */
 }
 
 a {
@@ -60,7 +61,7 @@ a:visited {
 }
 
 a:hover {
-    color: #d1d0d0;
+    color: #bcc4dd;
 }
 
 </style>
