@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Home from '@/components/Home'
-import Categories from '@/components/Categories'
-import Random from '@/components/Random'
+import HelloWorld from '@/components/Nav/HelloWorld'
+import Home from '@/components/Nav/Home'
+import Categories from '@/components/Nav/Categories'
+import Random from '@/components/Nav/Random'
 
 Vue.use(Router)
 
