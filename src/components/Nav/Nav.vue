@@ -46,6 +46,8 @@ nav {
   width: 100%;
   font-size: 25px;
   text-align: center;
+  background-color: grey;
+  padding-top: 50px;
 }
 
 a {
