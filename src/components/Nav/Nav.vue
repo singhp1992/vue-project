@@ -37,11 +37,15 @@ export default {
 
 <style>
 .spacing { 
-    margin-right: 10px; 
+    margin-left: 20px; 
+    margin-right: 20px;
 } 
 
 nav {
-
+  height: 50px;
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
 }
 
 a {
