@@ -2,7 +2,8 @@
     <nav>
       <router-link class="spacing" v-for="routes in links" 
       v-bind:key="routes.id"
-      :to="`${routes.page}`">{{routes.text}}</router-link>
+      :to="`${routes.page}`">{{routes.text}}
+      </router-link>
     </nav>
 </template>
 
@@ -51,15 +52,14 @@ nav {
 
 a {
    text-decoration: none;
-   color: white;
+   color: black;
 }
 
 a:visited {
-  color: white;
+  color: black;
 }
 
 a:hover {
     color: #bcc4dd;
 }
-
 </style>

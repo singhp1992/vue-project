@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="random">
     <h1>Random</h1>
     <p>
       Email: {{email}}
@@ -19,5 +19,8 @@ export default {
 </script>
 
 <style>
+#random {
+  height: 1500px;
+}
 
 </style>
