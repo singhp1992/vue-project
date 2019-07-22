@@ -47,7 +47,7 @@ nav {
   font-size: 25px;
   text-align: center;
   background-color: grey;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 a {
