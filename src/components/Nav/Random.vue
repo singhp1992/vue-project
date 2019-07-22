@@ -1,11 +1,9 @@
 <template>
   <div>
     <h1>Random</h1>
-  <p>
-    <ul>
-      <li>Email: {{email}}</li>
-    </ul>
-  </p>
+    <p>
+      Email: {{email}}
+    </p>
   </div>
 </template>
 
@@ -19,3 +17,7 @@ export default {
   }
 }
 </script>
+
+<style>
+
+</style>
