@@ -16,21 +16,16 @@ export default {
       links: [
         {
           id: 0,
-          text: 'Hello World',
-          page:'/HelloWorld'
-        },
-        {
-          id: 1,
           text: 'Home',
           page:'/Home'
         },
         {
-          id: 2,
+          id: 1,
           text: 'Categories',
           page:'/Categories'
         },
         {
-          id: 3,
+          id: 2,
           text: 'Random',
           page:'/Random'
         }
@@ -44,4 +39,8 @@ export default {
 .spacing { 
     margin-right: 10px; 
 } 
+
+nav {
+  background-color: blue;
+}
 </style>

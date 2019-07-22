@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/nav/HelloWorld'
 import Home from '@/components/nav/Home'
 import Categories from '@/components/nav/Categories'
 import Random from '@/components/nav/Random'
@@ -11,8 +10,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Home',
+      component: Home
     },
     {
       path: '/home',
