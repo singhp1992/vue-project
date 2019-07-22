@@ -46,15 +46,21 @@ nav {
   width: 100%;
   font-size: 25px;
   text-align: center;
-  background-color: grey;
+  background-color: rgb(77, 77, 77);
   padding-top: 20px;
 }
 
 a {
    text-decoration: none;
+   color: white;
 }
 
 a:visited {
-  color: black
+  color: white;
 }
+
+a:hover {
+    color: #d1d0d0;
+}
+
 </style>
