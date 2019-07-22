@@ -41,6 +41,14 @@ export default {
 } 
 
 nav {
-  background-color: blue;
+
+}
+
+a {
+   text-decoration: none;
+}
+
+a:visited {
+  color: black
 }
 </style>
