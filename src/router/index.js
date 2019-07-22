@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Home from '@/components/Home'
 import Categories from '@/components/Categories'
-import Random from '@/components/Categories'
+import Random from '@/components/Random'
 
 Vue.use(Router)
 
@@ -26,7 +26,7 @@ export default new Router({
     },
     {
       path: '/random',
-      name: 'random',
+      name: 'Random',
       component: Random
     }
   ]

@@ -16,16 +16,21 @@ export default {
       links: [
         {
           id: 0,
+          text: 'Hello World',
+          page:'/HelloWorld'
+        },
+        {
+          id: 1,
           text: 'Home',
           page:'/Home'
         },
         {
-          id: 1,
+          id: 2,
           text: 'Categories',
           page:'/Categories'
         },
         {
-          id: 2,
+          id: 3,
           text: 'Random',
           page:'/Random'
         }

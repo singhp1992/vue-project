@@ -10,5 +10,6 @@ export default {
   name: 'About' //this is the name of the component
 }
 </script>
+
 <style>
 </style>

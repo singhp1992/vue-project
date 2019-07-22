@@ -1,13 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <Nav></Nav>
+     <router-view/>
   </div>
 </template>
 
 <script>
+import Nav from './components/Nav.vue'
+
 export default {
-  name: 'App'
+  name: 'app',
+  components: {
+    Nav
+  }
 }
 </script>
 
@@ -20,4 +25,9 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.spacing { 
+    margin-right: 10px; 
+} 
 </style>
+
