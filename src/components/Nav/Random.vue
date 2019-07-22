@@ -21,6 +21,7 @@ export default {
 <style>
 #random {
   height: 1500px;
+  margin-top: 100px;
 }
 
 </style>
